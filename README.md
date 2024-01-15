@@ -4,3 +4,9 @@ Welcome to my portfolio! Here, I document a summary of my projects and case stud
 ## Table of contents
 * SQL
 * Python
+
+# SQL
+| Project name  | Steps         | Description |
+| ------------- | ------------- |-------------|
+|               |               |             |
+|               |               |             |
