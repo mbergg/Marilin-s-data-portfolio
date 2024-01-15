@@ -7,4 +7,4 @@ Thank you [Data with Danny](https://www.linkedin.com/company/datawithdanny/) for
 ## Table of Contents
 
 Please find the solutions for the case studies below. 
-- [Case Study 1: Danny's Diner](https://github.com/mbergg/Portfolio/blob/main/Case%20Study%201/solution.md)
+- [Case Study 1: Danny's Diner](https://github.com/mbergg/Portfolio/blob/main/Case%20Study%201/solution1.md)
