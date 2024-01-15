@@ -19,10 +19,10 @@ GROUP BY sales.customer_id;
 ``` 
 
 **Thought process**
-* The end goal is to find total amount spent per customer. Now I will work backwards to get to the first step.
-* To see the amount per customer, I need to GROUP BY customer id's
-* Total amount consists of summarizing all the orders (use SUM)
-* I need to SELECT customer id's and order prices, which are in separate tables. This means, I need to use JOIN to combine sales and menu tables
+* The end goal is to find **total amount spent per customer**. Now I will work backwards to get to the first step.
+* To see the amount per customer, I need to **GROUP BY** customer id's
+* Total amount consists of summarizing all the orders (use **SUM**)
+* I need to SELECT customer id's and order prices, which are in separate tables. This means, I need to use **JOIN** to combine sales and menu tables
 
 **Answer**
 _Output the answer as a table_
