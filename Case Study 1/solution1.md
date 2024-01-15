@@ -25,7 +25,7 @@ GROUP BY sales.customer_id;
 * I need to SELECT customer id's and order prices, which are in separate tables. This means, I need to use JOIN to combine sales and menu tables
 
 **Answer**
-Output the answer as a table
+_Output the answer as a table_
 
 - Customer A spent 76 USD
 - Customer B spent 74 USD
