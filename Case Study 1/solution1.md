@@ -10,13 +10,19 @@
 **1. What is the total amount each customer spent at the restaurant?**
 
 ```sql 
-SELECT *
-FROM student_info
-WHERE student_name = 'Katie';
+SELECT
+sales.customer_id,
+SUM(price)
+FROM dannys_diner.menu
+JOIN dannys_diner.sales ON sales.product_id = menu.product_id
+GROUP BY sales.customer_id;
 ``` 
 
-**Steps**
-* Use JOIN
+**Thought process**
+* The end goal is to find total amount spent per customer. Now I will work backwards to get to the first step.
+* To see the amount per customer, I need to GROUP BY customer id's
+* Total amount consists of summarizing all the orders (use SUM)
+* I need to SELECT customer id's and order prices, which are in separate tables. This means, I need to use JOIN to combine sales and menu tables
 
 **Answer**
 Output the answer as a table
