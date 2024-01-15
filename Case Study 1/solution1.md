@@ -47,4 +47,27 @@ GROUP BY sales.customer_id;
 **Answer**
 - Customer A visited the restaurant 4 days.
 - Customer B visited the restaurant 6 days.
-- Customer C visited the restaurant 2 days. 
+- Customer C visited the restaurant 2 days.
+
+ **3. What was the first meal each customer ordered?**
+
+```sql
+ WITH ranked_orders AS (
+ SELECT 
+    sales.customer_id, 
+    sales.order_date, 
+    menu.product_name,
+    DENSE_RANK() OVER (
+      PARTITION BY sales.customer_id 
+      ORDER BY sales.order_date) AS rank
+  FROM dannys_diner.sales
+  INNER JOIN dannys_diner.menu
+    ON sales.product_id = menu.product_id)
+    
+ SELECT
+ customer_id,
+ product_name
+ FROM ranked_orders
+ WHERE rank = 1
+ GROUP BY customer_id, product_name;
+```
