@@ -6,9 +6,7 @@ Welcome to my portfolio! Here, I document a summary of my projects and case stud
 - Python
 
 # SQL
-| Project name  | Steps         | Description |
-| ------------- | ------------- |-------------|
-|               |               |             |
-|               |               |             |
-
-![safety-awareness-sign-nhe-16493_1000](https://github.com/mbergg/Portfolio/assets/102917473/d70e3cd6-1507-4a01-b07b-9f64ce27821b)
+| Project name        | Steps         | Description |
+| -------------       | ------------- |-------------|
+| [8 Week SQL Challenge](https://github.com/mbergg/Portfolio/blob/main/sql8challenges.md)| Data processing, data cleaning, data analytics| WIP |             
+                                                             
