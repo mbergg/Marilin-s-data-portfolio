@@ -10,3 +10,5 @@ Welcome to my portfolio! Here, I document a summary of my projects and case stud
 | ------------- | ------------- |-------------|
 |               |               |             |
 |               |               |             |
+
+![safety-awareness-sign-nhe-16493_1000](https://github.com/mbergg/Portfolio/assets/102917473/d70e3cd6-1507-4a01-b07b-9f64ce27821b)
