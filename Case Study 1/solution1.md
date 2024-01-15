@@ -13,7 +13,7 @@ Danny wants to deliver a more personalized experience to his customers to increa
 ```sql 
 SELECT
 sales.customer_id,
-SUM(price)
+SUM(price) AS total_amount
 FROM dannys_diner.menu
 JOIN dannys_diner.sales ON sales.product_id = menu.product_id
 GROUP BY sales.customer_id;
@@ -21,15 +21,30 @@ GROUP BY sales.customer_id;
 
 **Thought process**
 * Working backwards: The end goal is to find **total amount spent per customer**. 
-* To see the amount per customer, I need to **GROUP BY** `customer_id`
+* To determine the amount per customer, I will **GROUP BY** `customer_id`
 * Total amount consists of summarizing all the orders (use **SUM**`(price)`)
-* I need to **SELECT** `sales.customer_id` and `menu.price`, which are in separate tables. This means, I need to use **JOIN** to combine sales and menu tables
+* I will **SELECT** `sales.customer_id` and `menu.price`, which are in separate tables. This means, I need to use **JOIN** to combine sales and menu tables
 
 **Answer**
-_Output the answer as a table_
 
 - Customer A spent 76 USD
 - Customer B spent 74 USD
 - Customer C spent 36 USD
 
 **2. How many days has each customer visited the restaurant?**
+```sql
+SELECT
+sales.customer_id,
+COUNT(DISTINCT order_date) as nr_of_days
+FROM dannys_diner.sales
+GROUP BY sales.customer_id;
+```
+**Thought process**
+- The end goal is to find the **total number of days per customer**.
+- To determine the days per customer, I will **GROUP BY** `customer_id`
+- To determine the total number of days (without duplicating multiple orders on the same day), I will **COUNT DISTINCT** `order_date`
+
+**Answer**
+- Customer A visited the restaurant 4 days.
+- Customer B visited the restaurant 6 days.
+- Customer C visited the restaurant 2 days. 
