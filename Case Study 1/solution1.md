@@ -31,3 +31,5 @@ _Output the answer as a table_
 - Customer A spent 76 USD
 - Customer B spent 74 USD
 - Customer C spent 36 USD
+
+**2. How many days has each customer visited the restaurant?**
