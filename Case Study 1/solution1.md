@@ -1,6 +1,7 @@
 # Case Study 1: Danny's Diner
 
 ## Task
+Danny wants to deliver a more personalized experience to his customers to increase the loyalty. In order to do that, he needs to answer questions about customers' visiting patters, how much money they've spent and which menu items are their faovurite.
 
 ## Additional information: 
 <img width="556" alt="Screenshot 2024-01-15 at 11 48 04" src="https://github.com/mbergg/Portfolio/assets/102917473/506ab7a9-7b33-43b6-8969-de12092c3c83">
