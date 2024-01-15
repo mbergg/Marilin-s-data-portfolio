@@ -1,9 +1,9 @@
 # Marilin's portfolio 🦸‍♀️
 Welcome to my portfolio! Here, I document a summary of my projects and case studies in the data and coding space. 🙋‍♀️
 
-## Table of contents
-* SQL
-* Python
+## Table of Contents
+- [SQL](#sql)
+- Python
 
 # SQL
 | Project name  | Steps         | Description |
