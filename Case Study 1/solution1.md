@@ -9,7 +9,11 @@
 
 **1. What is the total amount each customer spent at the restaurant?**
 
-Add SQL query here
+```sql 
+SELECT *
+FROM student_info
+WHERE student_name = 'Katie';
+``` 
 
 **Steps**
 * Use JOIN
