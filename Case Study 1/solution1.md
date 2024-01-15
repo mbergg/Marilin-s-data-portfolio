@@ -23,7 +23,7 @@ GROUP BY sales.customer_id;
 * Working backwards: The end goal is to find **total amount spent per customer**. 
 * To see the amount per customer, I need to **GROUP BY** `customer_id`
 * Total amount consists of summarizing all the orders (use **SUM**`(price)`)
-* I need to SELECT `sales.customer_id` and `menu.price`, which are in separate tables. This means, I need to use **JOIN** to combine sales and menu tables
+* I need to **SELECT** `sales.customer_id` and `menu.price`, which are in separate tables. This means, I need to use **JOIN** to combine sales and menu tables
 
 **Answer**
 _Output the answer as a table_
