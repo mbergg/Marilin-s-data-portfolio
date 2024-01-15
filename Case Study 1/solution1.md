@@ -2,7 +2,8 @@
 
 ## Task
 
-## Additional information: Relational Databases
+## Additional information: 
+<img width="556" alt="Screenshot 2024-01-15 at 11 48 04" src="https://github.com/mbergg/Portfolio/assets/102917473/506ab7a9-7b33-43b6-8969-de12092c3c83">
 
 ## Questions and solutions
 
